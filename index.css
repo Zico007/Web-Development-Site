@@ -1,0 +1,39 @@
+h1{
+	font-size:60px;
+	text-align:center;
+	font-family: fantasy;
+	color:#753175;
+	background-color:#b9b6b9;
+}
+
+h2{
+	font-size:30px;
+	font-family: Helvetica;
+
+}
+
+
+
+nav{
+	text-align: center;
+	font-size:20px;
+}
+
+aside{
+	border:solid black;
+}
+
+.qoute{
+	font-size:25px;
+	font-family: monospace;
+}
+
+cite{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size:20px;
+}
+
+footer{
+	text-align: center;
+}
