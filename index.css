@@ -3,7 +3,7 @@ h1{
 	text-align:center;
 	font-family: fantasy;
 	color:#753175;
-	background-color:#b9b6b9;
+	background-color:#bba8bb;
 }
 
 h2{
@@ -36,4 +36,5 @@ cite{
 
 footer{
 	text-align: center;
+	font-family: fantasy;
 }

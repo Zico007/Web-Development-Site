@@ -1,0 +1,21 @@
+h1{
+	font-size:60px;
+	text-align:center;
+	font-family: fantasy;
+	color:#753175;
+	background-color:#bba8bb;
+}
+
+p{
+	font-size:20px;
+}
+
+span{
+	color:purple;
+	font-weight:bold;
+}
+
+footer{
+	font-family: fantasy;
+	text-align: center;
+}
