@@ -19,8 +19,9 @@ nav{
 	font-size:20px;
 }
 
-aside{
-	border:solid black;
+p{
+	font-size: 22px;
+	font-family: monospace;
 }
 
 .qoute{
