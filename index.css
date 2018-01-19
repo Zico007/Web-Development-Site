@@ -1,41 +1,96 @@
-h1{
-	font-size:60px;
-	text-align:center;
+#container{
+	margin:0 auto;
+	width:100%;
+}
+
+#header{
+	font-size:28px;
 	font-family: fantasy;
+	padding: 10px;
 	color:#753175;
 	background-color:#bba8bb;
 }
 
 h2{
 	font-size:30px;
-	font-family: Helvetica;
+	font-family: fantasy;
 
 }
 
-
-
-nav{
-	text-align: center;
-	font-size:20px;
+h3{
+	font-size: 20px;
+	font-family: fantasy;
 }
 
-p{
-	font-size: 22px;
+#maincontainer{
+	float:left;
+	width:100%;
+}
+
+#content{
+	clear: left;
+	float:left;
+	width:75%;
+	padding:20px 0;
+	display:inline;
+}
+
+#navigator{
+	float:left;
+	width:100%;
+	font-size:23px;
+	background-color:#d9d5dcc7;
+}
+
+#navigator ul li{
+	list-style-type: none;
+	display:inline;
+}
+
+#navigator li a{
+	display:inline-block;
+	text-decoration: none;
+	border-right: 2px solid #753175;
+	padding:3px 10px;
+	float:none;
+}
+
+#navigator li a:hover{
+	background-color: #bba8bb;
+}
+
+#paragraph{
+	font-size: 20px;
 	font-family: monospace;
 }
 
-.qoute{
-	font-size:25px;
+blockquote{
+	font-size:17px;
 	font-family: monospace;
 }
 
 cite{
 	font-family: sans-serif;
 	font-weight: bold;
-	font-size:20px;
+	font-size:15px;
 }
 
-footer{
+#sidebar{
+	float:right;
+	width:20%;
+	padding:20px 0;
+	margin:0;
+	display: inline;
+	color:#784780;
+	background-color:#d9d5dcc7;
+}
+
+#footer{
+	clear:left;
 	text-align: center;
 	font-family: fantasy;
+	padding: 20px;
+	height: 1%;
+	color:#753175;
+	background-color: #bba8bb;
 }

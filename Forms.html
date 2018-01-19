@@ -9,6 +9,7 @@
 	<div>
 		<h1>Forms</h1>
 	</div>
+	<div>
 			<nav>
 				<a href="index.html">Home</a>
 				<a href="Fonts.html">Fonts</a>
@@ -17,6 +18,46 @@
 				<a href="Graphics.html">Graphics</a>
 				<a href="Lists.html">Lists</a>
 			</nav>
+	</div>
+	<div>
+		<h2>A basic form</h2>
+			<hr>
+			<form action="#">
+			<fieldset>
+				<legend>Form Information</legend>
+				<div id="form-field">
+					<label for="username">Name:</label>
+					<input id="username" type="text" name="username" size="20" maxsize="30">
+				</div>
+				<div id="form-field">
+					<label for="email">E-mail Address:</label>
+					<input id="email" type="text" name="email">
+				</div>
+				<br/>
+				<div id="form-field">
+					<input class="button" type="submit"  name="submit" value="Send form">
+				</div>
+			</fieldset>
+			</form>
+	</div>
+	<div>
+		<h3>A basic select</h3>
+			<hr>
+			<form action="#">
+				<fieldset>
+					<legend>Form Information</legend>
+					<div>
+						<label for="state">State</label>
+						<select id="state" name="state">
+							<option value="CA">California</option>
+							<option selected="selected" value="WI">Wisconsin</option>
+						</select>
+					</div>
+				</fieldset>
+			</form>
+	</div>
+
+<!--***************************************************************************************************************************************-->
 	<div>
 		<form action="http://www.google.com" method="GET">
 			<input type="text" name="username"/>
@@ -65,13 +106,13 @@
 	<div>
 		<form>
 			<label for="e-mail">Your e-mail address: </label>
-			<input type="text" name="e-mail" autofocus/>
+			<input type="text" name="e-mail" />
 		</form>
 	</div>
 	<div>
 		<form>
 			<label for="name"><b>Name:</b></label>
-			<input type="text" name="name" placeholder="Enter your name" autofocus/>
+			<input type="text" name="name" placeholder="Enter your name"/>
 		</form>
 	</div>
 	<div>

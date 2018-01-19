@@ -11,6 +11,28 @@ nav{
 	font-size:20px;
 }
 
+#form-field{
+	clear:both;
+	padding:10px;
+	width:350px;
+}
+
+#form-field label{
+	float:left;
+	width:150px;
+	text-align: right;
+}
+
+#form-field input{
+	float: right;
+	width:150px;
+	text-align: left;
+}
+
+.button{
+	text-align: center;
+}
+
 footer{
 	font-family: fantasy;
 	text-align: center;
