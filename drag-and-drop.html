@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<style>
+		.box{
+			height:200px;
+			width:200px;
+			display:inline-block;
+			border:2px solid black;
+		}
+	</style>
+	<script>
+		function startDragging(evt){
+			evt.dataTransfer.setData{"Color", evt.target.style.background};
+			evt.target.style.opacity=0.3;
+		}
+	</script>
+	<title>Drag and Drop</title>
+</head>
+<body>
+	<div ondragstart="startDragging(event)" draggable="true" class="box" style="background:red;"></div>
+	<div ondragstart="startDragging(event)" draggable="true" class="box" style="background:green;"></div>
+	<div ondragstart="startDragging(event)" draggable="true" class="box" style="background:blue;"></div>
+	<br/>
+	<div class="box"></div>
+	<div class="box"></div>
+	<div class="box"></div>
+</body>
+</html>
